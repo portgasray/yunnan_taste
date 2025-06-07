@@ -1,15 +1,35 @@
 {
-  "miniprogramRoot": "./",
-  "projectname": "yunnan_taste_mini",
-  "description": "Yunnan Taste WeChat Mini-Program",
-  "appid": "touristappid",
-  "setting": {
-    "urlCheck": true,
-    "es6": false,
-    "enhance": false,
-    "compileHotReLoad": false,
-    "postcss": false,
-    "minified": false
-  },
-  "compileType": "miniprogram"
+	"projectname": "yunnan_taste_mini",
+	"description": "Yunnan Taste WeChat Mini-Program",
+	"appid": "wx3ee1dea40e2f4a5f",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": false,
+		"postcss": false,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
 }
